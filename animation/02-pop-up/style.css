@@ -53,12 +53,22 @@ button {
 }
 
 .popup-modal.show {
-  transition: transform .3s ease-in-out;
+  transition: transform .3s ease-in;
   opacity: 100%;
   pointer-events: all;
 }
 
 .backdrop.show {
   opacity: 30%;
+}
+
+.popup-modal.hide {
+  transition: transform .3s ease-out;
+  opacity: 0%;
+  pointer-events: all;
+}
+
+.backdrop.hide {
+  opacity: 0%;
 }
 
