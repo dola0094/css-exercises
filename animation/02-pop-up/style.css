@@ -53,6 +53,7 @@ button {
 }
 
 .popup-modal.show {
+  transition: transform .3s ease-in-out;
   opacity: 100%;
   pointer-events: all;
 }
